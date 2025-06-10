@@ -1,0 +1,23 @@
+{
+  "name": "yc-ai-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "client:server": "webpack serve --mode development",
+    "client:dev": "webpack --mode development",
+    "client:prod": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.11.31",
+    "swc-loader": "^0.2.6",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-merge": "^6.0.1",
+    "yargs-parser": "^22.0.0"
+  }
+}
