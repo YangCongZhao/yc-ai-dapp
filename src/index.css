@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+html {
+    transition: font-size 0.3s ease;
+}
+:root {
+    --foreground: #333;
+    --background: #f0f0f0;
+}
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    /*color: yellowgreen;*/
+}
